@@ -14,22 +14,19 @@ It includes:
 
 ## 🚀 How to Run the Script
 
-1. **Download the script file**:  
-   [📥 Download adobe-uninstall.sh](sandbox:/mnt/data/adobe-uninstall.sh)
+1. **Transfer the script to your Mac** and open the **Terminal**.
 
-2. **Transfer the script to your Mac** and open the **Terminal**.
-
-3. **Make the script executable**:
+2. **Make the script executable**:
    ```bash
    chmod +x /path/to/adobe-uninstall.sh
    ```
 
-4. **Run the script with superuser privileges**:
+3. **Run the script with superuser privileges**:
    ```bash
    sudo /path/to/adobe-uninstall.sh
    ```
 
-5. **View the log file** after execution:
+54 **View the log file** after execution:
    ```bash
    cat /var/log/adobe-uninstall-YYYY-MM-DD-HH-MM.log
    ```
